@@ -1,14 +1,33 @@
 .login {
   min-height: 100dvh;
-  background: url(/background.png) no-repeat;
+  /* background: url(/background.png) no-repeat; */
+  background: 
+  /* linear-gradient(
+      to bottom,
+      rgba(12, 12, 12, 0.52),
+      rgba(1, 1, 231, 0.5),
+      rgba(52, 7, 253, 0.73)
+    ), */ linear-gradient(
+      /* rgba(3, 20, 253, 0.52),
+      rgba(0, 0, 248, 0.5),
+      rgba(1, 1, 231, 0.5),
+      rgba(18, 2, 243, 0.49) */
+        rgba(3, 20, 253, 0.52),
+      rgba(2, 17, 228, 0.5),
+      rgba(4, 4, 207, 0.5),
+      rgba(18, 2, 243, 0.49)
+    ),
+    url("/public/BackgroundImg.png");
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  opacity: 1;
 }
 .login .logo {
   width: max(20vw, 200px);
 }
+
 .login-form {
   background: white;
   padding: 20px 30px;
